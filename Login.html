@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type = "text/css"href="style.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Login;
+		--web-view-id: Login;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Login;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Login {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Login;
+		--web-view-id: Login;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes  {
+	
+	
+	}
+	#MacBook {
+		position: absolute;
+		width: 953.315px;
+		height: 953.315px;
+		left: 704.393px;
+		top: 370.771px;
+		overflow: visible;
+	}
+	#Folder {
+		position: absolute;
+		width: 866.527px;
+		height: 845.204px;
+		left: 1179.737px;
+		top: -229.102px;
+		overflow: visible;
+	}
+	#Login_Box {
+		position: absolute;
+		width: 467px;
+		height: 615px;
+		left: 1249px;
+		top: 232px;
+		overflow: visible;
+	}
+	#Rectangle_2 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_2 {
+		filter: drop-shadow(20px 10px 20px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 527px;
+		height: 675px;
+		left: 0px;
+		top: 0px;
+	}
+	#LOGIN {
+		left: 87.46px;
+		top: 37.572px;
+		position: absolute;
+		overflow: visible;
+		width: 292px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: 'Noto Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_3 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.email {
+		position: absolute;
+		overflow: visible;
+		width: 283.483px;
+		height: 51px;
+		left: 91.687px;
+		top: 188.624px;
+	}
+	#Rectangle_4 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.password {
+		position: absolute;
+		overflow: visible;
+		width: 283.483px;
+		height: 51px;
+		left: 91.687px;
+		top: 358.451px;
+	}
+	#ID {
+		left: 137.813px;
+		top: 138.443px;
+		position: absolute;
+		overflow: visible;
+		width: 194px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: 'Noto Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#PASSWORD {
+		left: 137.813px;
+		top: 307.801px;
+		position: absolute;
+		overflow: visible;
+		width: 194px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: 'Noto Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_5 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		height: 48px;
+		left: 178.075px;
+		top: 494px;
+		--web-animation: fadein 0.3s ease-in-out;
+		--web-action-type: page;
+		--web-action-target: Main_Page_out.html;
+		cursor: pointer;
+	}
+	#_LOGIN {
+		left: 191.205px;
+		top: 470px;
+		position: absolute;
+		overflow: visible;
+		width: 88px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: 'Noto Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Title_Box {
+		position: absolute;
+		width: 934px;
+		height: 646px;
+		left: 62px;
+		top: 297px;
+		overflow: visible;
+	}
+	#Rectangle_8 {
+		fill: rgba(0,0,0,1);
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_8 {
+		filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 964px;
+		height: 557px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_9 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 873px;
+		height: 489px;
+		left: 25px;
+		top: 20px;
+	}
+	#Welcome_to___HOMS_Hostem_Outin {
+		left: 131px;
+		top: 10px;
+		position: absolute;
+		overflow: visible;
+		width: 673px;
+		height: 600px;
+		text-align: center;
+		font-family: 'Noto Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 55px;
+		color: rgba(0,0,0,1);
+	}
+	#ID1200px-KL_University_logosvg {
+		position: absolute;
+		width: 349px;
+		height: 141px;
+		left: 355px;
+		top: 408px;
+		overflow: visible;
+	}
+</style>
+<script id="applicationScript" type="text/javascript" src="Login.js"></script>
+</head>
+<body>
+<div id="Login">
+	<img id="MacBook" src="Images/MacBook.png">
+		
+	<img id="Folder" src="Images/Folder.png">
+	<form action="Main_Page.html" method="post" name="login">		
+	<div id="Login_Box">
+		<svg class="Rectangle_2">
+			<rect id="Rectangle_2" rx="37" ry="37" x="0" y="0" width="467" height="615">
+			</rect>
+		</svg>
+		<div id="ID">
+			<span>Email</span>
+		</div>
+		<div id="LOGIN">
+			<span>LOGIN</span>
+		</div>
+        <div class="email">
+		 <div class="mb-3">
+			<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" style="width:115; height:50px; border-color: black;">
+		  </div>
+		</div>
+		<div id="PASSWORD">
+			<span>PASSWORD</span>
+		</div>
+		<div class="password">
+		<div class="mb-3">
+			<input type="password" id="inputPassword" class="form-control" placeholder="Password" required="" style="width:115; height:50px; border-color: black;">
+		  </div>
+		</div>
+		<div id="_LOGIN">
+			<button class="btn btn-outline-dark" type="submit"style="width: 100px; height: 40px;">Login</button>
+	
+		</div>
+	</div>
+	</form>
+	<div id="Title_Box">
+		<svg class="Rectangle_8">
+			<rect id="Rectangle_8" rx="37" ry="37" x="0" y="0" width="934" height="527">
+			</rect>
+		</svg>
+		<svg class="Rectangle_9">
+			<rect id="Rectangle_9" rx="37" ry="37" x="0" y="0" width="873" height="489">
+			</rect>
+		</svg>
+		<div id="Welcome_to___HOMS_Hostem_Outin">
+			<span>Welcome to<br/><br/><br/>H.O.M.S<br/>(Hostem Outing Managing System)</span>
+		</div>
+	</div>
+	<img id="ID1200px-KL_University_logosvg" src="Images/ID1200px-KL_University_logosvg.png">
+		
+</div>
+</body>
+</html>
